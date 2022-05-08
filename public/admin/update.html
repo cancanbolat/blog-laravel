@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Reset & Defaults CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Admin Panel - Update Post</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand">
+                <span class="ti-unlink"></span>
+                <span>Admin</span>
+            </h3>
+            <span class="ti-menu-alt"></span>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="index.html"><span class="ti-home"></span>Home<span></span></a></li>
+                <li class="active"><a href="posts.html"><span class="ti-face-smile"></span>Posts<span></span></a></li>
+                <li><a href="#"><span class="ti-agenda"></span>Categories<span></span></a></li>
+                <li><a href="#"><span class="ti-clipboard">Settings</span><span></span></a></li>
+                <li><a href="#"><span class="ti-book">Info</span><span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="ti-search"></span>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="social-icons">
+                <span class="ti-bell"></span>
+                <span class="ti-comment"></span>
+                <div></div>
+            </div>
+        </header>
+        <main>
+            <h2 class="dash-title">Add Post</h2>
+            <hr>
+            <h5><a class="bt btn-success" href="posts.html">&lt; All Posts</a></h5>
+            <div class="add-form">
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Post title" required="Post title required" name="Title" value="">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Keywords" name="Keywords" value="">
+                    </div>
+                    <div class="form-group">
+                        <select name="CategoryID" id="">
+                            <option selected disabled>Select Category</option>
+                            <option value="1">Category 1</option>
+                            <option value="2">Category 2</option>
+                            <option value="3">Category 3</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="" id="" cols="20" rows="5" placeholder="Post description"
+                            required="Post description required" name="Description"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-success">Add</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- Reset & Defaults CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Admin Panel - Posts</title>
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h3 class="brand">
+                <span class="ti-unlink"></span>
+                <span>Admin</span>
+            </h3>
+            <span class="ti-menu-alt"></span>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li><a href="index.html"><span class="ti-home"></span>Home<span></span></a></li>
+                <li class="active"><a href="#"><span class="ti-face-smile"></span>Posts<span></span></a></li>
+                <li><a href="#"><span class="ti-agenda"></span>Categories<span></span></a></li>
+                <li><a href="#"><span class="ti-clipboard">Settings</span><span></span></a></li>
+                <li><a href="#"><span class="ti-book">Info</span><span></span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-content">
+        <header>
+            <div class="search-wrapper">
+                <span class="ti-search"></span>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="social-icons">
+                <span class="ti-bell"></span>
+                <span class="ti-comment"></span>
+                <div></div>
+            </div>
+        </header>
+        <main>
+            <h2 class="dash-title">Posts</h2>
+            <hr>
+            <h3><a class="bt btn-success" href="add.html">&plus; Add Post</a></h3>
+            <div class="posts-table">
+                <table>
+                    <caption>Posts</caption>
+                    <thead>
+                        <th>#</th>
+                        <th>Title</th>
+                        <th>Category</th>
+                        <th>Date</th>
+                        <th>View</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Post title 1</td>
+                            <td>Category 1</td>
+                            <td>28-02-2020</td>
+                            <td><a class="btn btn-warning" href="#">View</a></td>
+                            <td><a class="btn btn-primary" href="#">Update</a></td>
+                            <td><a class="btn btn-danger" href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Post title 2</td>
+                            <td>Category 2</td>
+                            <td>28-02-2020</td>
+                            <td><a class="btn btn-warning" href="#">View</a></td>
+                            <td><a class="btn btn-primary" href="#">Update</a></td>
+                            <td><a class="btn btn-danger" href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Post title 3</td>
+                            <td>Category 3</td>
+                            <td>28-02-2020</td>
+                            <td><a class="btn btn-warning" href="#">View</a></td>
+                            <td><a class="btn btn-primary" href="#">Update</a></td>
+                            <td><a class="btn btn-danger" href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Post title 4</td>
+                            <td>Category 2</td>
+                            <td>28-02-2020</td>
+                            <td><a class="btn btn-warning" href="#">View</a></td>
+                            <td><a class="btn btn-primary" href="#">Update</a></td>
+                            <td><a class="btn btn-danger" href="#">Delete</a></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Post title 6</td>
+                            <td>Category 3</td>
+                            <td>28-02-2020</td>
+                            <td><a class="btn btn-warning" href="#">View</a></td>
+                            <td><a class="btn btn-primary" href="#">Update</a></td>
+                            <td><a class="btn btn-danger" href="#">Delete</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

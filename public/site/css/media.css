@@ -1,0 +1,58 @@
+/* RESPONSIVE */
+
+/* Large */
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 99rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .post {
+        margin-bottom: 2rem;
+        display: flex;
+    }
+    .cover-image {
+        max-width: 100%;
+        max-height: auto;
+        margin-right: 1rem;
+    }
+}
+
+/* Medium */
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 76rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .cover-image {
+        max-width: 50%;
+        max-height: auto;
+        margin-right: 1rem;
+    }
+}
+
+/* Small */
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 57rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .post {
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .cover-image {
+        max-width: 100%;
+        max-height: auto;
+        margin-bottom: 1rem;
+    }
+    .posts .date {
+        display: contents;
+    }
+}

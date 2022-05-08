@@ -1,0 +1,4 @@
+@yield('js')
+</body>
+
+</html>
